@@ -1,0 +1,47 @@
+/* Dark theme background */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Center everything */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card-like container */
+.card {
+  background-color: #1e1e1e;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* Greeting text */
+h1 {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Button styling */
+button {
+  background-color: #00b894;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #019875;
+}
